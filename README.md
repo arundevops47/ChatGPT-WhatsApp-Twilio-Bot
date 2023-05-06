@@ -8,11 +8,14 @@ python>=3.8
 
 git clone https://github.com/arundevops47/ChatGPT-WhatsApp-Twilio-Bot.git
 
+```
+cd ChatGPT-WhatsApp-Twilio-Bot
+```
+
 # 2. Create virtual environment in working directory and activate it.
 
 `For Window`
 ```shell
-cd ChatGPT-WhatsApp-Twilio-Bot
 python -m venv venv
 venv\Scripts\activate
 ```
