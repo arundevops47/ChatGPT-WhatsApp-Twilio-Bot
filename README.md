@@ -4,10 +4,15 @@
 
 python>=3.8
 
-# 1. Open terminal and Create virtual environment in working directory and activate it.
+# 1. Open terminal and clone repo
+
+git clone https://github.com/arundevops47/ChatGPT-WhatsApp-Twilio-Bot.git
+
+# 2. Create virtual environment in working directory and activate it.
 
 `For Window`
 ```shell
+cd ChatGPT-WhatsApp-Twilio-Bot
 python -m venv venv
 venv\Scripts\activate
 ```
@@ -19,17 +24,17 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-# 2. Install packeges
+# 3. Install packeges
 
 ```shell
 pip install -r requirements.txt
 ```
 
-# 3. Get Openai API key
+# 4. Get Openai API key
 
 Creat your OpenAI account from https://platform.openai.com and get API Key from https://platform.openai.com/account/api-keys
 
-# 4. Create .env file into your working directory and add these variables
+# 5. Create .env file into your working directory and add these variables
 
 ```
 OPENAI_API_KEY=
@@ -41,7 +46,7 @@ CONVERSATION_EXPIRES_MINS=5
 ALLOWED_PHONE_NUMBERS=
 ```
 
-# 5. Setup ngrok
+# 6. Setup ngrok
 
 
 `Installation ngrok in window`
@@ -63,13 +68,13 @@ Make sure the folder is in your PATH environment variable
 3. ngrok config add-authtoken <token>
 4. ngrok http 5000
 
-# 6. Run the Whatsapp bot
+# 7. Run the Whatsapp bot
 
 Open another terminal and run the app with command "python app.py".
 
 (Make sure in new tab - source venv/bin/activate)
 
-# 7. Configure Twilio WhatsApp
+# 8. Configure Twilio WhatsApp
 
 Signup Twilio [twilio.com](https://twilio.com) and go to [console.twilio.com](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn)
 
@@ -91,7 +96,7 @@ Get Account SID and Auth Token from [here](https://console.twilio.com/)
 Paste it in your .env
 
 
-# 8. After setup send message from Twillio sandbox
+# 9. After setup send message from Twillio sandbox
 
 If you are successful, you should receive a message as
 
