@@ -6,9 +6,8 @@ python>=3.8
 
 # 1. Open terminal and clone repo
 
-git clone https://github.com/arundevops47/ChatGPT-WhatsApp-Twilio-Bot.git
-
 ```
+git clone https://github.com/arundevops47/ChatGPT-WhatsApp-Twilio-Bot.git
 cd ChatGPT-WhatsApp-Twilio-Bot
 ```
 
